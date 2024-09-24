@@ -1,0 +1,20 @@
+body {
+  background-color: #787878; }
+
+logo {
+  background-image: url("logo.png"); }
+
+.rotate {
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  overflow: hidden;
+  cursor: pointer; }
+
+.rotate:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg); }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3N0eWxlcy9zdHlsZXMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDBCQUF3QixFQUMzQjs7QUFFRDtFQUNJLGtDQUFpQyxFQUNwQzs7QUFFRDtFQUNJLGtDQUF5QjtVQUF6QiwwQkFBeUI7RUFDekIsK0NBQThCO0VBQTlCLHVDQUE4QjtFQUE5QiwrQkFBOEI7RUFBOUIsa0RBQThCO0VBQzlCLGlCQUFlO0VBQ2YsZ0JBQWUsRUFDbEI7O0FBRUQ7RUFDSSxrQ0FBd0I7VUFBeEIsMEJBQXdCLEVBQzNCIiwiZmlsZSI6InN0eWxlcy5jc3MifQ== */
